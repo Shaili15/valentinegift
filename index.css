@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Rosario:400,700italic,700,400italic);
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("tony.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.bg {
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg1{
+    background-image: url("ironman.png");
+}
+
+.bg2{
+    background-image: url("avengers.png");
+    display: none;
+}
+
+.bg3{
+    background-image: url("avengers1.png");
+    display: none;
+}
+
+.bg4{
+    background-image: url("avengers2.png");
+    display: none;
+}
+
+.bg5{
+    background-image: url("thor.png");
+    display: none;
+}
+
+.bg6{
+    background-image: url("thor1.png");
+    display: none;
+}
+
+.bg7{
+    background-image: url("thanos.png");
+    display: none;
+}
+
+.bg8{
+    background-image: url("dr.png");
+    display: none;
+}
+
+.bg9{
+    background-image: url("captainmarvel.png");
+    display: none;
+}
+
+.bg10{
+    display: none;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+  }
+
+
+.btn {    
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 15px 15px 35px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+	border-radius: 		2px; 
+	box-shadow: 3px 3px 0 #DE6450;
+	color:				#DE6450;
+  font-family: 'Rosario' ; 
+ }
+
+
+.btn:hover {
+	color: #fdc29e;
+}
+
+
+.btn:active {
+	margin:				1px 0 0 1px;
+	box-shadow: 		2px 2px 0 #DE6450;
+}
